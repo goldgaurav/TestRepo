@@ -9,7 +9,7 @@ public class DemoController {
 	@RequestMapping("/hello")
 	public String returnMsg()	
 	{
-		System.out.println("here");
+		System.out.println(" here");
 		return "hi";
 	}
 }
